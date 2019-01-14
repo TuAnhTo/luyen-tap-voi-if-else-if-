@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+       var userName = prompt(" nhap gia tri vao hop thoai ");
+       if(userName =='Admin'){
+           var pass = prompt("Password", '')
+           if (pass == 'TheMaster'){
+               console.log(' welcome');
+           }
+           else if (pass = null){
+               console.log('canceled')
+           }
+           else {
+               console.log('Wrong password');
+           }
+
+       }
+       else if (userName == null){
+           console.log('canceled');
+       }
+       else {
+           console.log('Toi khong biet ban :)) ')
+       }
+    </script>
+</body>
+</html>
